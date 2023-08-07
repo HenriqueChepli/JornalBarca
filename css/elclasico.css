@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+/* cores da lista */
+
+#Total{
+    color: whitesmoke;
+ }
+
+ 
+#linha{
+    color: azure;
+    border: 2px solid ;
+    width: 100%;
+}
+
+#lista {
+    margin: 20px;
+}
