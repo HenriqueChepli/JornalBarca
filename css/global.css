@@ -107,7 +107,7 @@ main {
 }
 
 #sidebar-buttom li{
-  top: 320px;
+  top: 580px;
   gap: 7.5px;
   font-size: 1.25rem;
   cursor: pointer;
@@ -211,7 +211,7 @@ body.collapsed .expand-btn img {
   background-color: var(--shadow-color);
   padding: 25px;
   margin-top: 180px;
-  width: 94.5%;
+  width: 95.5%;
   margin-left: 80px;
   height: 350px;
   flex-wrap: wrap;
@@ -266,7 +266,7 @@ body.collapsed .expand-btn img {
   flex-direction: row;
   background-image: linear-gradient(to left, var(--terceury-color), var(--primary-color));
   padding: 50px;
-  width: 94.5%;
+  width: 95.5%;
   margin-left: 80px;
   height: 620px;
   flex-wrap: wrap;
@@ -275,6 +275,40 @@ body.collapsed .expand-btn img {
 .itens-bottom {
   height: 500px;
   width: 250px;
+}
+
+.catalunha-bottom {
+  height: 500px;
+  width: 500px;
+}
+
+.info-bottom {
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  height: 400px;
+  width: 300px;
+}
+
+#titulo-bottom{
+  font-size: 35px;
+  margin: 50px 0 45px 0;
+}
+
+.par-bottom {
+  margin-top: 15px;
+  padding: 2px;
+  font-size: 25px;
+}
+
+.par-bottom:hover {
+  transition: all 0.5s ease-in-out;
+  border-bottom: 2px solid var(--sexta-color);
+}
+
+#img-catalunha{
+  height: 500px;
+  width: 500px;
 }
 
 .itens-social {
@@ -302,16 +336,7 @@ body.collapsed .expand-btn img {
 
  /* formatação de letra */
 
- p {
-  color: white;
-  line-height: 1cm;
-  margin-top: 2cm;
-  font-family: 'Roboto';
-  margin-left: 1cm;
-  margin-right: 1cm;
-  text-align: justify;
-  font-size: 20px;
-}
+
 
 /* formatação das imagens */
 
