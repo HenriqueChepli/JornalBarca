@@ -1,5 +1,18 @@
 @charset "utf-8";
 
+:root {
+    --dark-color: #0D0D0D;
+    --bright-color: #F2F2F2;
+    --shadow-color: #212121;
+    --primary-color: #BF1F3C;
+    --second-color: #F20505;
+    --terceury-color: #03318C;
+    --quarta-color: #0511F2;
+    --quinta-color: #ffff00;
+    --sexta-color: #f0be00;
+    --azulnaval-color: #274360;
+  }
+
 /* cores da lista */
 
 #Total{
