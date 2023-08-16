@@ -5,120 +5,203 @@
       <meta http-equiv="X-UA-Compatilhe"  content="IE=edge">
       <meta name="viewport"  content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+      <link rel="stylesheet" href="css/global.css">
       <link rel="stylesheet" href="css/titulo.css">
       <title>Barcelona FC - Títulos</title>
       <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
      
 </head>
-
 <body>
-
-        <header id="header">
-          <a id="logo" href="index.html">Inicio</a>
-      <nav id="nav">
-          <button id="btn-busca">
-            <div id="lupa">
-                <img id="dark" src="imagens/bx-search1-alt.svg" alt="">
-                <img id="light" src="imagens/search-alt-regular-24.png" alt="">
-            </div>  
-              <span id="calzone"></span>
-          </button>
-          <div>
-            <input type="checkbox" name="change-theme" id="change-theme" />
-            <label for="change-theme">
-              <i class="bi bi-sun"></i>
-              <i class="bi bi-moon"></i>
-            </label>
-          </div>
-          <button id="btn-mobile">
-              <span id="hamburger"></span>
-          </button>
-          <ul id="menu">
-            <li><a href="titulo.html">Títulos</a></li>
-            <li><a href="pagina3.html">El Clásico</a></li>
-            <li><a href="messi.html">Messi</a></li>
-        </ul>
-          <ul id="busca">
-              <li><a href="/">Exemplo</a></li>
-              <li><a href="/">Exemplo</a></li>
-              <li><a href="/">Exemplo</a></li>
-          </ul>
-      </nav>
+    <header id="header">
+      <h1>
+        Blaugrana Odyssey
+      </h1>
     </header>
+  
     <div>
       <img id="barlogo" src="imagens/Barcelona-Logo.png" alt="">
     </div>
-
-    <h1>Todos Títulos do FC Barcelona</h1>
-
+  
+    <nav>
+      <div class="sidebar-top">
+        <span class="expand-btn">
+          <img src="imagens/chevron-right-regular-24.png" alt="Chevron">
+        </span>
+        <a href="index.html">
+        <img src="imagens/black-and-white-fc-barcelona-symbol-png-logo-23.png" alt="Laplacelogo" class="logo">
+      </a>
+        <h3 class="hide">Barça News</h3>
+      </div>
+      <div class="sidebar-links">
+        <ul>
+          <li>
+            <a href="titulo.html" class="active" title="Portifolio Link">
+              <div class="icon">
+                <img src="imagens/trophy-regular-24.png" title="Portifolio-Icon">
+              </div>
+              <span class="hide">Titulos</span>
+            </a>
+          </li>
+          <li>
+            <a href="lamasia.html" title="Analystics Link">
+              <div class="icon">
+                <img src="imagens/home-heart-regular-24.png" title="Analystics-Icon">
+              </div>
+              <span class="hide">La Masia</span>
+            </a>
+          </li>
+          <li>
+            <a href="pagina3.html" title="elclasico Link">
+              <div class="icon">
+                <img src="imagens/radiation-solid-24.png"  title="aimamae-Icon">
+              </div>
+              <span class="hide">El Clasico</span>
+            </a>
+          </li>
+        </ul>
+        <ul id="sidebar-buttom">
+          <li>
+            <div class="icon">
+              <img src="imagens/user-circle-regular-24.png" alt="/">
+            </div>
+            <span class="hide">Fazer Login</span>
+          </li>
+          <li>
+            <div class="icon">
+              <img src="imagens/cog-regular-24.png" alt="/">
+            </div>
+            <span class="hide">Configurações</span>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <section id="tabela">
-    
-    <table>
-        <tr>
-            <th>Campeonato</th>
-            <th>Numero de Titulos</th>
-            <th>Ano da Conquista</th>
-            <th>Foto</th>
-        </tr>
-        <tr>
-            <td>Mundial de Clubes</td>
-            <td>3 (Três)</td>
-            <td>15/16, 11/12, 09/10</td>
-            <td><img src="imagens/Titulos/mundial.png" alt="Mundial de Clubes"></td>
-       
-        </tr>
-        <tr>
-            <td>Champions League</td>
-            <td>5 (Cinco)</td>
-            <td>14/15, 10/11, 08/09, 05/06, 91/92</td>
-            <td><img src="imagens/Titulos/champions.png" alt="Champions League"></td>
-        </tr>
-        <tr>
-            <td>Super Taça da UEFA</td>
-            <td>5 (Cinco)</td>
-            <td>15/16, 11/12, 09/10, 97/98, 92/93</td>
-            <td><img src="imagens/Titulos/supercopa da uefa.png" alt="Super Taça da UEFA"></td>
-        </tr>
-        <tr>
-            <td>LaLiga</td>
-            <td>26 (Vinte e Seis)</td>
-            <td>18/19, 17/18, 15/16, 14/15, 12/13, 10/11, 09/10, 08/09, 05/06, 04/05, 98/99, 97/98, 93/94, 92/93, 91/92, 90/91, 84/85, 73/74, 59/60, 58/59, 52/53, 51/52, 48/49, 47/48, 44/45, 1928/29</td>
-            <td><img src="imagens/Titulos/laliga.png" alt="LaLiga"></td>
-        </tr>
-        <tr>
-            <td>Copa Del Rey</td>
-            <td>31 (Trinta e Um)</td>
-            <td>20/21, 17/18, 16/17, 15/16, 14/15, 11/12, 08/09, 97/98, 96/97, 89/90, 87/88, 82/83, 80/81, 77/78, 70/71, 67/68, 62/63, 58/59, 56/57, 52/53, 51/52 , 50/51, 41/42, 1927/28, 1925/26, 1924/25, 1921/22, 1919/20, 1912/13, 1911/12, 1909/10</td>
-            <td><img src="imagens/Titulos/copa del rey.png" alt="Copa Del Rey"></td>
-        </tr>
-        <tr>
-            <td>Super Taça da Espanha</td>
-            <td>14 (Quatorze)</td>
-            <td>22/23, 18/19, 16/17, 13/14, 11/12, 10/11, 09/10, 06/07, 05/06, 96/97, 94/95, 92/93, 91/92, 83/84</td>
-            <td><img src="imagens/Titulos/super taca da espanha.png" alt="Super Taça da Espanha"></td>
-        </tr>
-        <tr>
-            <td>Super Taça da UEFA</td>
-            <td>5 (Cinco)</td>
-            <td>15/16, 11/12, 09/10, 97/98, 92/93</td>
-            <td><img src="imagens/Titulos/supercopa da uefa.png" alt="Super Taça da UEFA"></td>
-        </tr>
-        <tr>
-            <td>Taça das Taças</td>
-            <td>4 (Quatro)</td>
-            <td>96/97, 88/89, 81/82, 78/79</td>
-            <td><img src="imagens/Titulos/taca das tacas.png" alt="Taça das Taças"></td>
-        </tr>
-        <tr>
-            <td>Taça Messe</td>
-            <td>3 (Três)</td>
-            <td>65/66, 59/60, 57/58</td>
-            <td><img src="imagens/Titulos/taca messe.png" alt="Taça Messe"></td>
-        </tr>
-    </table>
+        <table>
+            <tr>
+                <th>Campeonato</th>
+                <th>Numero de Titulos</th>
+                <th>Ano da Conquista</th>
+                <th>Foto</th>
+            </tr>
+            <tr>
+                <td>Mundial de Clubes</td>
+                <td>3 (Três)</td>
+                <td>15/16, 11/12, 09/10</td>
+                <td><img class="img-titulos" src="imagens/Titulos/318.png" alt="Mundial de Clubes"></td>
+           
+            </tr>
+            <tr>
+                <td>Champions League</td>
+                <td>5 (Cinco)</td>
+                <td>14/15, 10/11, 08/09, 05/06, 91/92</td>
+                <td><img class="img-titulos" src="imagens/Titulos/4.png" alt="Champions League"></td>
+            </tr>
+            <tr>
+                <td>Super Taça da UEFA</td>
+                <td>5 (Cinco)</td>
+                <td>15/16, 11/12, 09/10, 97/98, 92/93</td>
+                <td><img class="img-titulos" src="imagens/Titulos/354.png" alt="Super Taça da UEFA"></td>
+            </tr>
+            <tr>
+                <td>LaLiga</td>
+                <td>26 (Vinte e Seis)</td>
+                <td>18/19, 17/18, 15/16, 14/15, 12/13, 10/11, 09/10, 08/09, 05/06, 04/05, 98/99, 97/98, 93/94, 92/93, 91/92, 90/91, 84/85, 73/74, 59/60, 58/59, 52/53, 51/52, 48/49, 47/48, 44/45, 1928/29</td>
+                <td><img class="img-titulos" src="imagens/Titulos/11.png" alt="LaLiga"></td>
+            </tr>
+            <tr>
+                <td>Copa Del Rey</td>
+                <td>31 (Trinta e Um)</td>
+                <td>20/21, 17/18, 16/17, 15/16, 14/15, 11/12, 08/09, 97/98, 96/97, 89/90, 87/88, 82/83, 80/81, 77/78, 70/71, 67/68, 62/63, 58/59, 56/57, 52/53, 51/52 , 50/51, 41/42, 1927/28, 1925/26, 1924/25, 1921/22, 1919/20, 1912/13, 1911/12, 1909/10</td>
+                <td><img class="img-titulos" src="imagens/Titulos/94.png" alt="Copa Del Rey"></td>
+            </tr>
+            <tr>
+                <td>Super Taça da Espanha</td>
+                <td>14 (Quatorze)</td>
+                <td>22/23, 18/19, 16/17, 13/14, 11/12, 10/11, 09/10, 06/07, 05/06, 96/97, 94/95, 92/93, 91/92, 83/84</td>
+                <td><img class="img-titulos" src="imagens/Titulos/93.png" alt="Super Taça da Espanha"></td>
+            </tr>
+            <tr>
+                <td>Taça das Taças</td>
+                <td>4 (Quatro)</td>
+                <td>96/97, 88/89, 81/82, 78/79</td>
+                <td><img class="img-titulos" src="imagens/Titulos/53.png" alt="Taça das Taças"></td>
+            </tr>
+            <tr>
+                <td>Taça Messe</td>
+                <td>3 (Três)</td>
+                <td>65/66, 59/60, 57/58</td>
+                <td><img class="img-titulos" src="imagens/Titulos/49.png" alt="Taça Messe"></td>
+            </tr>
+        </table>
+        </section>
+  
+  </div>
+    <section id="patro">
+      <div id="patrocinio">
+        <h2>
+          Patrocinadores
+        </h2>
+      </div>
+    <div id="itens-patro">
+  
+      <div class="itens-patro">
+        <a href="">
+          <img class="img-patro" src="imagens/nike.png" alt="">
+        </a>
+      </div>
+      <div class="itens-patro">
+        <a href="">
+          <img class="img-patro" src="imagens/spotify-logo.png" alt="">
+        </a>
+      </div>
+      <div class="itens-patro">
+        <a href="">
+          <img class="img-philips" src="imagens/Philips-Logo.png" alt="">
+        </a>
+      </div>
+    </div>
     </section>
-    <br>
-
+    <footer id="bottom">
+      <div class="info-bottom">
+        <h1 id="titulo-bottom">Blaugrana Odissey</h1>
+          <p class="par-bottom">Atualizações</p>
+          <p class="par-bottom">Esportes</p>
+          <p class="par-bottom">Eventos</p>
+          <p class="par-bottom">Jogadores</p>
+          <p class="par-bottom">Resultados</p>
+      </div>
+      <div class="catalunha-bottom">
+        <img id="img-catalunha" src="imagens/1200px-Flag_map_of_Catalonia.svg.png" alt="">
+      </div>
+      <div class="itens-bottom">
+        <div class="itens-social">
+          <a href="">
+          <img class="img" src="imagens/instagram-logo-24.png" alt="">
+          <h1>
+            @fcbarcelona
+          </h1>
+          </a>
+        </div>
+        <div class="itens-social">
+          <a href="">
+          <img class="img" src="imagens/tiktok-logo-24.png" alt="">
+          <h1>
+            @fcbarcelona
+          </h1>
+        </a>
+        </div>
+        <div class="itens-social">
+          <a href="">
+          <img class="img" src="imagens/youtube-logo-24.png" alt="">
+          <h1>
+            @fcbarcelona
+          </h1>
+        </a>
+        </div>
+      </div>
+    </footer>
+  
     <script src="java/global.js"></script>
-</body>
+  </body>
+
 </html>
