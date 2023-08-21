@@ -75,3 +75,18 @@
     transition: all 0.25s ease-in-out;
     opacity: 0;
   }
+
+  .face-face2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    transform: rotateY(180deg);
+  }
+  
+  .slider-itens:hover .face-face2 {
+    transition: all 0.25s ease-in-out;
+    opacity: 1;
+  }
