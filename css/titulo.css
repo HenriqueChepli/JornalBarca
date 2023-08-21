@@ -13,46 +13,95 @@
   --azulnaval-color: #274360;
 }
 
-#tabela {
+.container-slider {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row;
-  padding: 50px;
   margin-top: 180px;
-  gap: 50px;
   width: 95.5%;
   margin-left: 80px;
-  height: 1000px;
-  flex-wrap: wrap;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
-/* formatação das imagens */
- 
-.img-titulos{
-  width: 100%;
+.slider-itens {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 225px;
+  height: 275px;
+  border-radius: 10px;
+  transition: all 0.75s ease-in-out;
+  background-color: var(--shadow-color);
+  border: 1px solid var(--quinta-color);
+}
+
+.slider {
+  opacity: 0;
+  transition: opacity .2s;
+  position: absolute;
+  padding: 25px;
+  width: 200px;
+  height: 220px;
+}
+
+.on {
+  opacity: 1;
+}
+
+#prev-button, #next-button {
   padding: 5px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: var(--sexta-color);
+  cursor: pointer;
 }
 
-/* formatação da tabela */
-
-table{
-    color: var(--bright-color);
+#prev-button img, #next-button img {
+  width: 100%;
+  height: 100%;
 }
 
-table, th, td{
-    border: 1px solid var(--bright-color);
-    margin-left: 1cm;
-    margin-right: 1cm;
-    text-align: center;
-    border-collapse: collapse;
+#prev-button {
+  transform: rotate(180deg);
 }
 
-li{
-    color: var(--bright-color);
+.titulo-slider {
+  padding: 2px;
+  font-size: 15px;
+  color: var(--bright-color);
 }
 
-#tabela {
-  margin-bottom: 10px;
-  margin-top: 15px;
+.slider-itens:hover {
+  transform: rotateY(180deg);
+}
+
+.face-face1 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-itens:hover .face-face1 {
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.face-face2 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
+  transform: rotateY(180deg);
+}
+
+.slider-itens:hover .face-face2 {
+  transition: all 0.25s ease-in-out;
+  opacity: 1;
 }
