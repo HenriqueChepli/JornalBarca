@@ -108,7 +108,7 @@ main {
 }
 
 #sidebar-buttom li{
-  top: 580px;
+  top: 60vh;
   gap: 7.5px;
   font-size: 1.25rem;
   cursor: pointer;
@@ -214,7 +214,7 @@ body.collapsed .expand-btn img {
   margin-top: 180px;
   width: 96.5%;
   margin-left: 65px;
-  height: 350px;
+  height: 35vh;
   flex-wrap: wrap;
 }
 
@@ -269,7 +269,7 @@ body.collapsed .expand-btn img {
   padding: 50px;
   width: 96.5%;
   margin-left: 65px;
-  height: 620px;
+  height: 65vh;
   flex-wrap: wrap;
 }
 
@@ -334,12 +334,6 @@ body.collapsed .expand-btn img {
 .img {
   transform: scale(1.2, 1.2);
 }
-
- /* formatação de letra */
-
-
-
-/* formatação das imagens */
 
 #barlogo {
   border-style: none;
