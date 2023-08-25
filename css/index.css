@@ -12,6 +12,8 @@
   --azulnaval-color: #274360;
 }
 
+/* Navegação Entre as Noticias */
+
 #container {
    display: flex;
    justify-content: space-around;
@@ -73,7 +75,6 @@
     align-items: center;
     padding: 20px;
     box-sizing: border-box;
-    
     bottom: 75px;
     box-shadow: 0 20px 50px rgba(0, 0, 0, .8);
   }

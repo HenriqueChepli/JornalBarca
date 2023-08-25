@@ -61,6 +61,8 @@ body {
   background: var(--shadow-color);
 }
 
+/* Navegação */
+
 nav {
   position: fixed;
   top: 0;
@@ -204,6 +206,8 @@ body.collapsed .expand-btn img {
   transform: rotate(-180deg);
 }
 
+/* Patrocinio Sessão */
+
 #patro {
   display: flex;
   align-items: center;
@@ -214,7 +218,7 @@ body.collapsed .expand-btn img {
   margin-top: 180px;
   width: 96.5%;
   margin-left: 65px;
-  height: 35vh;
+  height: 350px;
   flex-wrap: wrap;
 }
 
@@ -260,6 +264,8 @@ body.collapsed .expand-btn img {
   transition: all 0.5s ease-in-out;
 }
 
+/* "Rodapé" Sessão */
+
 #bottom {
   display: flex;
   justify-content: space-around;
@@ -269,7 +275,7 @@ body.collapsed .expand-btn img {
   padding: 50px;
   width: 96.5%;
   margin-left: 65px;
-  height: 65vh;
+  height: 600px;
   flex-wrap: wrap;
 }
 
@@ -331,6 +337,8 @@ body.collapsed .expand-btn img {
   border: 5px solid var(--quinta-color);
 }
 
+/* Imagens */
+
 .img {
   transform: scale(1.2, 1.2);
 }
@@ -343,3 +351,18 @@ body.collapsed .expand-btn img {
   display: block;
   margin: auto;
 }
+
+  /* Responsividade */
+
+  @media (max-width: 1400px)  {
+    #sidebar-buttom li a{
+      top: 40px;
+    }
+  }
+  
+  
+  @media (max-width: 1024px)  {
+  
+  }
+
+  /* Pois é... Eu tentei :D */
